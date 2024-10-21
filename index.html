@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="NV.jpg" type="image/png">
+</head>
+<body>
+    <!-- Solar System Background -->
+    <div class="solar-system">
+        <div class="stars"></div>
+        <div class="sun"></div>
+        <div class="earth-orbit">
+            <div class="earth"></div>
+            <div class="moon-orbit">
+                <div class="moon"></div>
+            </div>
+        </div>
+        <div class="mars-orbit">
+            <div class="mars"></div>
+        </div>
+        <div class="jupiter-orbit">
+            <div class="jupiter"></div>
+        </div>
+        <div class="saturn-orbit">
+            <div class="saturn"></div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a class="nav-link" href="#home-section">Home</a></li>
+            <li><a class="nav-link" href="#trust-section">Trust</a></li>
+            <li><a class="nav-link" href="#about-section">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Home Section -->
+        <section id="home-section">
+            <h1>Welcome to Our Product Landing Page</h1>
+        </section>
+
+        <!-- First Section - YouTube Video -->
+        <section id="video-section">
+            <iframe id="youtube-video" width="1560" height="515" src="https://www.youtube.com/embed/Ebw2nF6EPqI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <!-- Second Section - Trust Section with Scrollable Images -->
+        <section id="trust-section">
+            <h2>Trust Section</h2>
+            <div class="trust-carousel">
+                <div class="trust-people">
+                    <img src="trust1.jpg" alt="Trust Image 1" class="trust-image active">
+                    <img src="trust2.png" alt="Trust Image 2" class="trust-image">
+                    <img src="trust3.jpg" alt="Trust Image 3" class="trust-image">
+                    <img src="trust4.jpg" alt="Trust Image 4" class="trust-image">
+                    <img src="trust5.jpg" alt="Trust Image 5" class="trust-image">
+                    <img src="trust6.jpg" alt="Trust Image 5" class="trust-image">
+                    <img src="trust7.jpg" alt="Trust Image 5" class="trust-image">
+                    <img src="trust8.jpg" alt="Trust Image 5" class="trust-image">
+                    <img src="trust9.png" alt="Trust Image 5" class="trust-image">
+                    <img src="trust10.png" alt="Trust Image 5" class="trust-image">
+                    <img src="trust11.png" alt="Trust Image 5" class="trust-image">
+                    <img src="trust12.png" alt="Trust Image 5" class="trust-image">
+                    <img src="trust13.png" alt="Trust Image 5" class="trust-image">
+                    <img src="trust14.png" alt="Trust Image 5" class="trust-image">
+                    <img src="trust15.png" alt="Trust Image 5" class="trust-image">
+                    <img src="trust16.png" alt="Trust Image 5" class="trust-image">
+                </div>
+                <button class="carousel-btn" id="prev-btn">&lt;</button>
+                <button class="carousel-btn" id="next-btn">&gt;</button>
+            </div>
+            <button onclick="location.href='trust.html'">See More Trust Images</button>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about-section">
+            <h2>About Us</h2>
+            <p>We are a trusted company dedicated to providing high-quality products and services to our customers. Our mission is to build trust and offer value through our offerings. Our team is made up of experienced professionals who are passionate about what they do and always strive for excellence.</p>
+            <button onclick="location.href='about.html'">Learn More About Us</button>
+        </section>
+        
+        <!-- Third Section - Product Subscription -->
+        <section id="product-section">
+            <h2>Our Product</h2>
+            <img src="product_image.png" alt="Product Image" class="product-image">
+            <div class="product-pricing">
+                <div class="subscription">
+                    <p>One Day Hack Subscription $8</p>
+                </div>
+                <div class="subscription">
+                    <p>One week Hack subscription $18</p>
+                </div>
+                <div class="subscription">
+                    <p>One month Hack subscription $36</p>
+                </div>
+            </div>
+            <button id="telegram-btn">Chat with us on Telegram</button>
+            <button id="discord-btn">Join us on Discord</button>
+        </section>
+
+        <!-- Fourth Section - Payment Methods -->
+        <section id="payment-section">
+            <h2>Accepted Payment Methods</h2>
+            <div class="payments">
+                <img src="google-gift-card.png" alt="Google Gift Card">
+                <img src="apple-gift-card.png" alt="Apple Gift Card">
+                <img src="asiacell.png" alt="Asiacell">
+                <img src="rafidain-mastercard.png" alt="Rafidain Bank Mastercard">
+            </div>
+        </section>
+
+        <!-- Fifth Section - Support -->
+        <section id="support-section">
+            <h2>If you need any support, please send us a message using the blue button of Telegram</h2>
+            <img src="support-image.png" alt="Support Image">
+        </section>
+
+        <!-- Common Ninja Widget -->
+        <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+        <div class="commonninja_component pid-82fc49c3-f248-465e-a03a-0d17b5b2375f"></div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
